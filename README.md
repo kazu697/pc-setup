@@ -1,9 +1,11 @@
 # pc-setup
 
+Ubuntu環境で実行されることを想定しています。
+
 ## setup
 
 ```sh
-sh ./shell/setup.sh <git_user_name> <git_email>
+sh ./shell/setup.sh <git_user_name> <git_email> <linux_password>
 ```
 
 ## add git sub account

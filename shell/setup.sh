@@ -8,4 +8,6 @@ cat ./.bashrc >> ~/.bashrc
 
 echo "[user]\n\tname = $1\n\temail = $2 " > ~/.gitconfig
 
+sh ./install-docker.sh $3
+
 source ~/.bashrc
