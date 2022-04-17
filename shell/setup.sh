@@ -6,4 +6,6 @@ chmod a+x ~/.git-prompt.sh
 
 cat ./.bashrc >> ~/.bashrc
 
+echo "[user]\n\tname = $1\n\temail = $2 " > ~/.gitconfig
+
 source ~/.bashrc
